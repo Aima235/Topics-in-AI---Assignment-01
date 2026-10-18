@@ -1,9 +1,11 @@
 # Custom Q-Learning Agent on Gymnasium Taxi-v3
 
-**Topics in AI, Assignment I (CLO-I)**  
+**Topics in AI, Assignment I **  
+**Aima Perveen**
+**FA23-BAI-066**
 **Environment:** `Taxi-v3`  
 **Algorithm:** tabular Q-Learning implemented from scratch, using NumPy.  
-**Execution platform:** Google Colab (CPU is sufficient).
+**Execution platform:** Google Colab
 
 ## Run in Google Colab (recommended)
 1. Open [Google Colab](https://colab.research.google.com/).
@@ -18,20 +20,12 @@ pip install -r requirements.txt
 python main.py --episodes 20000 --sensitivity-episodes 5000 --eval-episodes 100
 ```
 
-For a faster smoke test (not recommended for your final report):
-```bash
-python main.py --episodes 2000 --sensitivity-episodes 1000 --eval-episodes 20
-```
-
 ## Generated deliverables
 Running the notebook or script creates `outputs/`:
 
 - `q_table.npy`: trained Q(s,a), shape 500 x 6
 - `trained_taxi.gif`: **actual rendered successful** agent trajectory
-- `training_curves.png`: reward convergence and success curve
-- `hyperparameter_comparison.png`: learning-rate and discount-factor sensitivity
 - `training_history.csv`, `hyperparameter_results.csv`: experiment data
-- `results_summary.json`: reproducible measurements
 - `technical_report.pdf`: automatically written with run-specific measurements (maximum 4 pages)
 
 ## The Q-Learning update
@@ -47,7 +41,5 @@ For true terminal transitions, the bootstrap term is zero. We do not use pre-tra
 - Rewards: -1 per ordinary step, -10 for illegal pickup/dropoff, +20 for correct delivery.
 - Successful delivery terminates an episode, otherwise a time limit truncates it.
 
-Official reference: https://gymnasium.farama.org/environments/toy_text/taxi/
 
-## Academic usage note
-Training and evaluation scores should be taken from the outputs of your own completed run. The report generator inserts the measured values. Add your name, roll number, and any instructor-required formatting before you submit.
+
