@@ -1,10 +1,13 @@
 # Custom Q-Learning Agent on Gymnasium Taxi-v3
 
-**Topics in AI, Assignment I **  
+**Topics in AI, Assignment I **
 **Aima Perveen**
+
 **FA23-BAI-066**
-**Environment:** `Taxi-v3`  
-**Algorithm:** tabular Q-Learning implemented from scratch, using NumPy.  
+
+**Environment:** `Taxi-v3`
+
+**Algorithm:** tabular Q-Learning implemented from scratch, using NumPy.
 **Execution platform:** Google Colab
 
 ## Run in Google Colab (recommended)
