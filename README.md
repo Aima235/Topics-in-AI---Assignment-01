@@ -1,6 +1,7 @@
 # Custom Q-Learning Agent on Gymnasium Taxi-v3
 
-**Topics in AI, Assignment I **
+**Topics in AI, Assignment I**
+
 **Aima Perveen**
 
 **FA23-BAI-066**
